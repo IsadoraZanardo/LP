@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         double n1, n2, result;
-        int option;
 
         Scanner in = new Scanner(System.in);
 
@@ -17,27 +16,32 @@ public class Main {
                             "\n1. Soma" +
                             "\n2. Subtracao" +
                             "\n3. Multiplicacao" +
-                            "\n4. Divisao") ;
+                            "\n4. Divisao" +
+                            "\n");
 
-        option = in.nextInt();
+        int option = in.nextInt();
 
         switch (option){
             case 1:
                 result = n1+n2;
-                System.out.println(n1 + " + " + n2 );
+                System.out.println("A soma é: " + n1 + " + " + n2 + " = " + result);
                 break;
+
             case 2:
                 result = n1-n2;
-                System.out.println("A subtração é: ");
+                System.out.println("A subtração é: " + n1 + " - " + n2 + " = " + result);
                 break;
+
             case 3:
                 result = n1*n2;
-                System.out.println("A multiplicação é: ");
+                System.out.println("A multiplicação é: " + n1 + " x " + n2 + " = " + result);
                 break;
+
             case 4:
                 result = n1/n2;
-                System.out.println("A divisão é: ");
+                System.out.println("A divisão é: " + n1 + " / " + n2 + " = " + result);
                 break;
+
             default:
                 System.out.println("Opção inválida");
                 break;
