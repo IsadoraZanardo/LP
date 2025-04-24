@@ -5,16 +5,24 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite o menor número: ");
+        System.out.println("Digite o primeiro número: ");
         int n1 = in.nextInt();
 
-        System.out.println("Digite o maior número: ");
+        System.out.println("Digite o segundo número: ");
         int n2 = in.nextInt();
 
-        for(int i=n1+1; i<n2; i++) {
-            if (i>0) {
+        if(n1<n2) {
+            for(int i=n1+1; i<n2; i++)
                 System.out.println(i);
-            }
         }
+
+        else if(n1>n2) {
+            for(int i=n2-1; i<n1; i++)
+                System.out.println(i);
+        }
+
+        else
+            System.out.println("Os números são iguais");
+
     }
 }

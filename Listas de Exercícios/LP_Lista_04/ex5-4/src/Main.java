@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println(n + "! = ");
 
-        while (n > 1) {
+        while (n>1) {
             fatorial = fatorial * n;
             n--;
         }
