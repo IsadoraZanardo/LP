@@ -8,7 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         for (int i=0; i<10; i++) {
-            System.out.println("Digite um número para a posição " + i + ": ");
+            System.out.println("Enter your number for " + i + " position: ");
             num [i] = in.nextInt();
         }
 
@@ -25,7 +25,7 @@ public class Main {
             }
         }
 
-        System.out.println("\nO maior núemro é " + max + ", equivalente a " + positionMax + "º posição");
-        System.out.println("O menor número é " + min + ", equivalente a " + positionMin + "º posição");
+        System.out.println("\nMax number is " + max + ", found at " + positionMax + "º position");
+        System.out.println("Min number " + min + ", found at " + positionMin + "º position");
     }
 }

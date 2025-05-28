@@ -7,13 +7,13 @@ public class Main {
             v2[i] = v1[9-i];
         }
 
-        System.out.print("\nPrimieiro arranjo (normal): {"); //v1
+        System.out.print("\nFisrt array (normal): {"); //v1
         for (int i=0; i<10; i++) {
             System.out.print(v1[i] + ", ");
         }
         System.out.print("};");
 
-        System.out.print("\nSegundo arranjo (invertido): {"); //v2
+        System.out.print("\nSecond array (inverted): {"); //v2
         for (int i=0; i<10; i++) {
             System.out.print(v2[i] + ", ");
         }
