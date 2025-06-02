@@ -6,12 +6,12 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite o número inteiro: ");
+        System.out.println("Enter your int number: ");
         n1 = in.nextDouble();
 
         if(n1%2==0)
-            System.out.println("Par");
+            System.out.println("Even"); //par
         else
-            System.out.println("Ímpar");
+            System.out.println("Odd"); //ímpar
     }
 }

@@ -4,29 +4,29 @@ public class Main {
     public static void main(String[] args) {
 
         //OPÇÃO 1
-        int maior1=0, menor1=0;
+        int max1 =0, min1 =0;
 
         Scanner in = new Scanner(System.in);
 
         for(int i=1; i<=5; i++) { //++ é sempre +1
-            System.out.println("Digite o " + i + " número: ");
+            System.out.println("Enter " + i + "° number: ");
             int temp = in.nextInt();
 
             if (i == 1) {
-                maior1 = temp;
-                menor1 = temp;
+                max1 = temp;
+                min1 = temp;
             }
 
-            if (temp > maior1)
-                maior1 = temp;
+            if (temp > max1)
+                max1 = temp;
 
-            if (temp < menor1)
-                menor1 = temp;
+            if (temp < min1)
+                min1 = temp;
 
             }
 
-        System.out.println("\nMaior: " + maior1);
-        System.out.println("Menor: " + menor1 + "\n");
+        System.out.println("\nMax number: " + max1);
+        System.out.println("Min number: " + min1 + "\n");
 
 
 
@@ -36,7 +36,7 @@ public class Main {
         Scanner in2 = new Scanner(System.in);
 
         for(int i=1; i<=5; i++) { //++ é sempre +1
-            System.out.println("Digite o " + i + " número: ");
+            System.out.println("Enter " + i + "° number: ");
             int temp = in.nextInt();
 
 
@@ -48,8 +48,8 @@ public class Main {
 
         }
 
-        System.out.println("\nMaior: " + maior2);
-        System.out.println("Menor: " + menor2);
+        System.out.println("\nMax number: " + maior2);
+        System.out.println("Min number: " + menor2);
 
     }
 }

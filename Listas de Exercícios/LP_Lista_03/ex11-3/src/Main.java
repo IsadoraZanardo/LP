@@ -6,22 +6,24 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite seu número: ");
+        System.out.println("Enter your number: ");
         num = in.nextDouble();
 
         if(num==1)
-            System.out.println("Domingo");
+            System.out.println("Sunday");
         else if (num==2)
-            System.out.println("Segunda");
+            System.out.println("Monday");
         else if (num==3)
-            System.out.println("Terça");
+            System.out.println("Tuesday");
         else if (num==4)
-            System.out.println("Quarta");
+            System.out.println("Wednesday");
         else if (num==5)
-            System.out.println("Quinta");
+            System.out.println("Thursday");
         else if (num==6)
-            System.out.println("Sexta");
+            System.out.println("Friday");
+        else if (num==7)
+            System.out.println("Saturday");
         else
-            System.out.println("Sábado");
+            System.out.println("Error");
     }
 }

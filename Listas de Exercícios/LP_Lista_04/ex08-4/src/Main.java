@@ -6,19 +6,19 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Digite seu número: ");
+        System.out.print("Enter your number: ");
         num = in.nextInt();
 
         if (num<2)
-            System.out.println("Não é primo");
+            System.out.println("Prime number");
         else {
             for (i=1; i<=num; i++) {
                 if (num % i == 0);}
 
                 if (div == 2)
-                    System.out.println("É primo");
+                    System.out.println("Prime number");
                 else
-                    System.out.println("Não é primo");
+                    System.out.println("Not a prime number");
             }
 
     }

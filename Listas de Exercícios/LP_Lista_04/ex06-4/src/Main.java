@@ -5,10 +5,10 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro número: ");
+        System.out.println("Enter first number: ");
         int n1 = in.nextInt();
 
-        System.out.println("Digite o segundo número: ");
+        System.out.println("Enter second number: ");
         int n2 = in.nextInt();
 
         if(n1<n2) {
@@ -22,7 +22,7 @@ public class Main {
         }
 
         else
-            System.out.println("Os números são iguais");
+            System.out.println("Both the same number");
 
     }
 }

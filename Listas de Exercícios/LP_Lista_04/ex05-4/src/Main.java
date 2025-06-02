@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int n, fatorial;
-        fatorial = 1;
+        int n, factorial;
+        factorial = 1;
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite seu número: ");
+        System.out.println("Enter your number: ");
         n = in.nextInt();
 
-        System.out.println(n + "! = ");
+        System.out.print(n + "! = ");
 
         while (n>1) {
-            fatorial = fatorial * n;
+            factorial = factorial * n;
             n--;
         }
 
-        System.out.println(fatorial);
+        System.out.println(factorial);
     }
 }

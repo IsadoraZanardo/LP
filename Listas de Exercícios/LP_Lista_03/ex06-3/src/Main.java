@@ -6,20 +6,20 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite seu número: ");
+        System.out.println("Enter your number: ");
         num = in.nextDouble();
 
         if(num==5)
-            System.out.println("Ligar para operadora");
+            System.out.println("Call operation center");
         else if (num==6)
-            System.out.println("Sacar dinheiro");
+            System.out.println("Take out money");
         else if (num==7)
-            System.out.println("Consultar poupança");
+            System.out.println("Check saving account");
         else if (num==8)
-            System.out.println("Editar perfil");
+            System.out.println("Edit profile");
         else if (num==9)
-            System.out.println("Encerrar");
+            System.out.println("Finish");
         else
-            System.out.println("Erro");
+            System.out.println("Error");
     }
 }

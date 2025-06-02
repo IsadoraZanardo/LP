@@ -9,34 +9,35 @@ public class Main {
 
         System.out.println("------------------------------\n" +
                 "Menu:\n" +
-                "    1. Círculo\n" +
-                "    2. Triangulo Retângulo\n" +
-                "    3. Retângulo\n" +
+                "    1. Circle\n" +
+                "    2. Right Triangle\n" +
+                "    3. Rectangle\n" +
                 "------------------------------\n");
-        System.out.println("Insira uma figura geométrica: ");
+
+        System.out.println("Enter your geometric figure: ");
         option = in.nextInt();
 
-        System.out.println("Informe a base/raio: ");
+        System.out.println("Enter base/radius: ");
         value1 = in.nextDouble();
 
-        System.out.println("Informe a altura: ");
+        System.out.println("Enter height: ");
         value2 = in.nextDouble();
 
         switch (option) {
             case 1:
-                System.out.println("ÁREA: " + Math.PI*Math.pow(value1, 2));
-                System.out.println("PERÍMETRO: " + 2*Math.PI*value1);
+                System.out.println("AREA: " + Math.PI*Math.pow(value1, 2));
+                System.out.println("PERIMETER: " + 2*Math.PI*value1);
                 break;
 
             case 2:
                 double hipotenusa = Math.sqrt(Math.pow(value1, 2) + Math.pow(value2, 2));
-                System.out.println("ÁREA: " + (value1 * value1) / 2);
-                System.out.println("PERÍMETRO: " + value1 + value2 + hipotenusa);
+                System.out.println("AREA: " + (value1 * value1) / 2);
+                System.out.println("PERIMETER: " + value1 + value2 + hipotenusa);
                 break;
 
             case 3:
-                System.out.println("ÁREA: " + value1 * value1);
-                System.out.println("PERÍMETRO: " + value1 + value1 + value2 + value2);
+                System.out.println("AREA: " + value1 * value1);
+                System.out.println("PERIMETER: " + value1 + value1 + value2 + value2);
                 break;
         }
     }

@@ -5,19 +5,20 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Digite seu número: ");
+        System.out.print("Enter your number: ");
         int num = in.nextInt();
 
-        int primeiro=0, segundo=1;
+        int first =0, second =1;
 
-        System.out.println(primeiro + " " + segundo + " ");
+        System.out.print(first + " " + second + " ");
 
         for(int i=2; i<num; i++){
-            int next = primeiro + segundo;
-            System.out.println(next + " ");
-            primeiro = segundo;
-            segundo = next;
+            int next = first + second;
+            System.out.print(next + " ");
+            first = second;
+            second = next;
         }
 
+        System.out.println(); //pular uma linha no final
     }
 }

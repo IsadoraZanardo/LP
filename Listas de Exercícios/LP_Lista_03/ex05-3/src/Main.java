@@ -6,14 +6,14 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite nota 1: ");
+        System.out.println("Enter grade 1: ");
         n1 = in.nextDouble();
 
-        System.out.println("Digite nota 2: ");
+        System.out.println("Enter grade 2: ");
         n2 = in.nextDouble();
 
         mean = (n1+n2)/2;
-        System.out.println("A média é: " + mean);
+        System.out.println("Mean is: " + mean);
 
         if(mean>=8.5)
             System.out.println("A");

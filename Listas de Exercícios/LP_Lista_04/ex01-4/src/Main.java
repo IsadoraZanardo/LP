@@ -5,7 +5,7 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Digite seu número: ");
+        System.out.print("Enter your number: ");
         int num = in.nextInt();
 
         for(int i=0; i<=10; i++) {
