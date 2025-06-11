@@ -6,7 +6,7 @@ public class Main {
                           {4, 5, 1, 2, 3},
                           {5, 1, 2, 3, 4}};
 
-        for (int i=0; i< matrix.length; i++) {
+        for (int i=0; i<matrix.length; i++) { //LENGTH pega a quantidade de itens da PRIMEIRA LINHA
             for (int j=0; j<5; j++) {
                 if (i==j) {
                     System.out.println(matrix[i][j]);

@@ -31,7 +31,7 @@ public class Main {
 
 
         //OPÇÃO 2
-        int maior2=Integer.MIN_VALUE ,menor2=Integer.MAX_VALUE;
+        int maior2=Integer.MIN_VALUE, menor2=Integer.MAX_VALUE;
 
         Scanner in2 = new Scanner(System.in);
 

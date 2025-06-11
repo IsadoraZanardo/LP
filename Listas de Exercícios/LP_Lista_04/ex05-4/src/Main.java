@@ -10,12 +10,8 @@ public class Main {
         System.out.println("Enter your number: ");
         n = in.nextInt();
 
-        System.out.print(n + "! = ");
-
-        while (n>1) {
-            factorial = factorial * n;
-            n--;
-        }
+        for (int i=1; i<=n; i++) {
+        factorial*=i; }
 
         System.out.println(factorial);
     }

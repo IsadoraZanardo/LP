@@ -10,6 +10,5 @@ public class Main {
                 vector[i] *= 2;
 
             System.out.println(vector[i]);}
-
     }
 }
