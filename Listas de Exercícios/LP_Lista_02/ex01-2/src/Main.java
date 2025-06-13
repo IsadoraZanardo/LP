@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int number, result;
 
-        System.out.println("Digite um número inteiro: ");
+        System.out.println("Enter your number: ");
 
         Scanner in = new Scanner(System.in); // Configura o Scanner
         number = in.nextInt();

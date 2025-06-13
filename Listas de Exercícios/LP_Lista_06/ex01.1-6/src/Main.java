@@ -11,7 +11,7 @@ public class Main {
             n = in.nextLong();
 
         } while (n<=0); //fica repetindo até user digitar um número maior que zero
-        System.out.println("Sum is: " + sumNumbers(n)); //mudar AQUI opção 1 ou 2
+        System.out.println("Sum is: " + sumNumbers(n));
     }
 
 
